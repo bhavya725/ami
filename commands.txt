@@ -1,0 +1,288 @@
+    1  ls
+    2  ln -s $HOME/packer_new/packer /usr/bin/packer.io
+    3  sudo ln -s $HOME/packer_new/packer /usr/bin/packer.io
+    4  packer --version
+    5  $HOME/packer_new/packer
+    6  packer
+    7  ls
+    8  cd ..
+    9  ls
+   10  cd ec2-user/
+   11  cd ../..
+   12  ls
+   13  cd usr
+   14  cd bin/
+   15  ls
+   16  cd ..
+   17  cd home/ec2-user/
+   18  ls
+   19  sudo yum install -y yum-utils
+   20  sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+   21  sudo yum -y install packer
+   22  packer --version
+   23  vi amazon_linux_ami.json
+   24  ls
+   25  packer validate amazon_linux_ami.json
+   26  cat amazon_linux_ami.json 
+   27  vi amazon_linux_ami.json 
+   28  packer validate amazon_linux_ami.json
+   29  vi amazon_linux_ami.json 
+   30  packer validate amazon_linux_ami.json
+   31  vi amazon_linux_ami.json 
+   32  packer validate amazon_linux_ami.json
+   33  vi amazon_linux_ami.json 
+   34  packer validate amazon_linux_ami.json
+   35  packer validate amazon_linux_ami.json
+   36  vi amazon_linux_ami.json 
+   37  packer validate amazon_linux_ami.json
+   38  cat amazon_linux_ami.json 
+   39  vi amazon_linux_ami.json 
+   40  packer validate amazon_linux_ami.json
+   41  vi amazon_linux_ami.json 
+   42  packer validate amazon_linux_ami.json
+   43  packer build amazon_linux_ami.json 
+   44  vi amazon_linux_ami.json 
+   45  packer validate amazon_linux_ami.json
+   46  cat amazon_linux_ami.json 
+   47  vi amazon_linux_ami.json 
+   48  packer validate amazon_linux_ami.json
+   49  packer build amazon_linux_ami.json 
+   50  ls
+   51  vi amazon_linux_ami.json 
+   52  packer validate amazon_linux_ami.json
+   53  packer build amazon_linux_ami.json 
+   54  packer --version
+   55  env
+   56  export AWS_ACCESS_KEY=AKIA3JCWHGFBDZ625DE5
+   57  export AWS_SECRET_KEY=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
+   58  env
+   59  packer build amazon_linux_ami.json 
+   60  vi amazon_linux_ami.json 
+   61  packer build amazon_linux_ami.json 
+   62  vi amazon_linux_ami.json 
+   63  packer build amazon_linux_ami.json 
+   64  httpd -v
+   65  ls
+   66  vi amazon_linux_ami.json 
+   67  sudo yum install -y tree
+   68  tree --version
+   69  tree -v
+   70  history
+   71  ls -la
+   72  vi .bash_history 
+   73  vi amazon_linux_ami.json 
+   74  sudo yum install -y httpd
+   75  httpd -v
+   76  httpd --version
+   77  vi amazon_linux_ami.json 
+   78  packer build amazon_linux_ami.json 
+   79  export AWS_ACCESS_KEY=AKIA3JCWHGFBDZ625DE5
+   80  export AWS_SECRET_KEY=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
+   81  packer build amazon_linux_ami.json 
+   82  vi amazon_linux_ami.json 
+   83  packer validate amazon_linux_ami.json 
+   84  vi amazon_linux_ami.json 
+   85  packer validate amazon_linux_ami.json 
+   86  packer build amazon_linux_ami.json 
+   87  vi amazon_linux_ami.json 
+   88  packer build amazon_linux_ami.json 
+   89  vi amazon_linux_ami.json 
+   90  packer build amazon_linux_ami.json 
+   91  vi amazon_linux_ami.json 
+   92  packer build amazon_linux_ami.json 
+   93  vi amazon_linux_ami.json 
+   94  ls
+   95  vi ubuntu_ami.json
+   96  ls
+   97  vi ubuntu_ami.json
+   98  vi index.html
+   99  vi install.sh
+  100  ls
+  101  packer --version
+  102  packer validate ubuntu_ami.json 
+  103  vi u
+  104  vi ubuntu_ami.json 
+  105  packer validate ubuntu_ami.json 
+  106  vi ubuntu_ami.json 
+  107  packer validate ubuntu_ami.json 
+  108  cat ubuntu_ami.json 
+  109  vi ubuntu_ami.json 
+  110  packer validate ubuntu_ami.json 
+  111  vi ubuntu_ami.json 
+  112  packer validate ubuntu_ami.json 
+  113  vi ubuntu_ami.json 
+  114  packer validate ubuntu_ami.json 
+  115  vi ubuntu_ami.json 
+  116  packer validate ubuntu_ami.json 
+  117  vi ubuntu_ami.json 
+  118  packer validate ubuntu_ami.json 
+  119  packer build ubuntu_ami.json 
+  120  env
+  121  enc
+  122  env
+  123  export AWS_ACCESS_KEY=AKIA3JCWHGFBDZ625DE5
+  124  export AWS_SECRET_KEY=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
+  125  packer build ubuntu_ami.json 
+  126  vi ubuntu_ami.json 
+  127  packer validate ubuntu_ami.json 
+  128  packer build ubuntu_ami.json 
+  129  aws s3 ls
+  130  aws configure
+  131  packer build ubuntu_ami.json 
+  132  vi ubuntu_ami.json 
+  133  packer build ubuntu_ami.json 
+  134  vi ubuntu_ami.json 
+  135  ls
+  136  vi install.sh 
+  137  vi ubuntu_ami.json 
+  138  packer build ubuntu_ami.json 
+  139  ls
+  140  pwd
+  141  sudo ls -l
+  142  sudo ls /tmp
+  143  sudo cp index.html /tmp
+  144  sudo ls /tm
+  145  sudo ls /tmp
+  146  packer build ubuntu_ami.json 
+  147  vi ubuntu_ami.json 
+  148  packer build ubuntu_ami.json 
+  149  vi ubuntu_ami.json 
+  150  packer build ubuntu_ami.json 
+  151  vi ubuntu_ami.json 
+  152  packer build ubuntu_ami.json 
+  153  cat ubuntu_ami.json 
+  154  vi ubuntu_ami.json 
+  155  packer build ubuntu_ami.json 
+  156  ls
+  157  vi install.sh 
+  158  vi ubuntu_ami.json 
+  159  packer build ubuntu_ami.json 
+  160  vi ubuntu_ami.json 
+  161  packer validate ubuntu_ami.json 
+  162  vi ubuntu_ami.json 
+  163  packer build ubuntu_ami.json 
+  164  cat install.sh 
+  165  cat ubuntu_ami.json 
+  166  vi ubuntu_ami.json 
+  167  packer build ubuntu_ami.json 
+  168  ==> amazon-ebs: Provisioning with shell script: /tmp/packer-shell877627704
+  169  ==> amazon-ebs: /tmp/script_4272.sh: 8: /tmp/script_4272.sh: Syntax error: Unterminated quoted string
+  170  ls
+  171  vi ubuntu_ami.json 
+  172  packer build ubuntu_ami.json 
+  173  vi ubuntu_ami.json 
+  174  packer build ubuntu_ami.json 
+  175  vi ubuntu_ami.json 
+  176  packer build ubuntu_ami.json 
+  177  ls
+  178  vi install.sh 
+  179  packer build ubuntu_ami.json 
+  180  vi install.sh 
+  181  vi ubuntu_ami.json 
+  182  vi install.sh 
+  183  packer build ubuntu_ami.json 
+  184  vi ubuntu_ami.json 
+  185  cat index.html
+  186  vi ubuntu_ami.json 
+  187  vi install.sh 
+  188  ls
+  189  vi install.sh 
+  190  vi ubuntu_ami.json 
+  191  cd /
+  192  ls
+  193  cd home/
+  194  ls
+  195  cd /tmp
+  196  ls
+  197  cd /usr
+  198  ls
+  199  cd tmp/
+  200  ls
+  201  cd
+  202  cd .aws
+  203  ls
+  204  cd config
+  205  cat config
+  206  cat credentials 
+  207  cd
+  208  vi ubuntu_ami.json 
+  209  packer validate ubuntu_ami.json 
+  210  packer build ubuntu_ami.json 
+  211  ls
+  212  cat install.sh 
+  213  ls
+  214  sudo yum install -y git
+  215  git --version
+  216  docker --version
+  217  sudo yum install -y git
+  218  git init
+  219  git add .
+  220  git comit -m "moving all files to git repo"
+  221  git commit -m "moving all files to git repo to create ami"
+  222  git remote add origin https://github.com/bhavya725/PACKER.git
+  223  git push -u origin master
+  224  git config --global user.name "bhavya725"
+  225  git config --global user.email "bhavyapandey1210@gmail.com"
+  226  git push -u origin master
+  227  ls
+  228  git --version
+  229  git push -u origin master
+  230  ls
+  231  sudo shutdown
+  232  ping 13.233.108.37
+  233  ping 10.0.2.36
+  234  ping 10.0.0.153
+  235  ping 10.0.2.36
+  236  aws s3 cp s3://bhavya-1210/bhavya_keypair.pem .
+  237  aws s3 ls
+  238  aws configure
+  239  aws s3 ls
+  240  aws s3 cp s3://bhavya-1210/bhavya_keypair.pem .
+  241  ls -lrt
+  242  ssh -i bhavya_keypair.pem ec2-user@10.0.2.36
+  243  sudo chmod 777 bhavya_keypair.pem 
+  244  ssh -i bhavya_keypair.pem ec2-user@10.0.2.36
+  245  ssh -i "bhavya_keypair.pem" ec2-user@10.0.2.36
+  246  ls -lrt
+  247  ssh -i "bhavya_keypair.pem" ec2-user@10.0.2.36
+  248  ping 10.0.2.36
+  249  sudo chmod 400 bhavya_keypair.pem 
+  250  ssh -i "bhavya_keypair.pem" ec2-user@10.0.2.36
+  251  ls
+  252  cd /var/
+  253  ls
+  254  cd www/html/
+  255  ls
+  256  cd
+  257  cp index.html /var/www/html/index.html
+  258  cp index.html /var/www/html/
+  259  cp index.html /var/www/html
+  260  ls -lrt index.html 
+  261  chmod 777 index.html 
+  262  cp index.html /var/www/html/
+  263  sudo cp index.html /var/www/html/
+  264  cd /var/www/html/
+  265  ls
+  266  cd
+  267  sudo yum install httpd
+  268  sudo service httpd status
+  269  sudo service httpd start
+  270  sudo service httpd status
+  271  cat index.html 
+  272  ls
+  273  cd /var/www/html
+  274  l
+  275  ls
+  276  cd
+  277  sudo service httpd status
+  278  sudo service httpd start
+  279  sudo service httpd status
+  280  sudo service apache2 status
+  281  sudo service httpd status
+  282  sudo service httpd start
+  283  sudo service httpd status
+  284  vi /var/www/html/index.html 
+  285  sudo vi /var/www/html/index.html 
+  286  history
+  287  ls
+  288  history >> commands.txt
